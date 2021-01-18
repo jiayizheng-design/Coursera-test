@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+.row {
+	width: 100%;
+	
+}
+/*large device only*/
+@media (min-width: 992px) {
+	.col-lg-4 {
+		float:left;
+	}
+	.col-lg-4 {
+		width: 33.33%;
+	}
+
+}
+/*medium device only*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6, .col-md-12  {
+		float:left;
+		position: relative;
+
+		
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+}
+
+
+body {
+	display: block;
+}
+h1, h2, p {
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.75em;
+}
+.container {
+	margin: 10px;
+	background-color: #d5e3d9;
+	position: relative;
+}
+h2 {
+	margin:0;
+	font-size: 1.25em;
+	height: 50px;
+	text-align: center;
+	border: 1px solid black;
+	position: absolute;
+	right:0;
+	top:0;
+	clear: both;
+	padding: 10px;
+}
+
+.chicken {
+	background-color: #ed8286;
+}
+.beef {
+	background-color: #992b2f;
+	color: white;
+}
+.sushi {
+	background-color: #c9ba89;
+}
+p{	
+	padding: 60px 15px 15px 15px;
+	font-size: 1em;
+	overflow: hidden;
+	border: 1px solid black;
+}
